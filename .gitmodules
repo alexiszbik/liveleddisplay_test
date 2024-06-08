@@ -1,0 +1,6 @@
+[submodule "JUCE"]
+	path = JUCE
+	url = https://github.com/juce-framework/JUCE.git
+[submodule "liveleddisplay"]
+	path = liveleddisplay
+	url = https://github.com/alexiszbik/liveleddisplay.git

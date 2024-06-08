@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="X2fEiV" name="liveleddisplay_test" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="yuvrY2" name="liveleddisplay_test">
+    <GROUP id="{B72F6FE5-1785-8E15-51BA-A3C21FBD2D16}" name="liveleddisplay">
+      <FILE id="juhT9m" name="Arrows.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Arrows.h"/>
+      <FILE id="njgf8g" name="AutoVu.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/AutoVu.h"/>
+      <FILE id="AzFmQq" name="BigVu.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/BigVu.h"/>
+      <FILE id="jt8bHT" name="BigYMNK.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/BigYMNK.h"/>
+      <FILE id="tvP20F" name="Circles.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Circles.h"/>
+      <FILE id="ZjqGrb" name="ColorsAndMatrix.h" compile="0" resource="0"
+            file="../TestLEDMatrix/liveleddisplay/ColorsAndMatrix.h"/>
+      <FILE id="s1aioc" name="FlashingSign.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/FlashingSign.h"/>
+      <FILE id="En74xI" name="Hearth.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Hearth.h"/>
+      <FILE id="mwSAXT" name="HearthRes.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/HearthRes.h"/>
+      <FILE id="LeeJSC" name="Kaomojis.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Kaomojis.h"/>
+      <FILE id="nBLidh" name="LICENSE" compile="0" resource="1" file="../TestLEDMatrix/liveleddisplay/LICENSE"/>
+      <FILE id="Jpg7eM" name="liveleddisplay.ino" compile="0" resource="1"
+            file="../TestLEDMatrix/liveleddisplay/liveleddisplay.ino"/>
+      <FILE id="iE0lWU" name="Matrix.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Matrix.h"/>
+      <FILE id="XhK2BT" name="Osc.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Osc.h"/>
+      <FILE id="VUQxVd" name="Palette.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Palette.h"/>
+      <FILE id="BChZGR" name="PixNoise.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/PixNoise.h"/>
+      <FILE id="fsKiB5" name="RainDrops.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/RainDrops.h"/>
+      <FILE id="AtmloY" name="RandomYMNK.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/RandomYMNK.h"/>
+      <FILE id="cUFzlZ" name="README.md" compile="0" resource="1" file="../TestLEDMatrix/liveleddisplay/README.md"/>
+      <FILE id="lzpR0k" name="RectangleGroup.h" compile="0" resource="0"
+            file="../TestLEDMatrix/liveleddisplay/RectangleGroup.h"/>
+      <FILE id="eFI9Q8" name="Rectgle.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Rectgle.h"/>
+      <FILE id="eOwkLi" name="Scene.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Scene.h"/>
+      <FILE id="I4ghri" name="Sparkles.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Sparkles.h"/>
+      <FILE id="Tda4tc" name="SquareDrops.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/SquareDrops.h"/>
+      <FILE id="rM8zYR" name="Squares.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Squares.h"/>
+      <FILE id="VKXyKD" name="SquareTrail.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/SquareTrail.h"/>
+      <FILE id="ABelJj" name="StarTour.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/StarTour.h"/>
+      <FILE id="F6XQYa" name="Sticks.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Sticks.h"/>
+      <FILE id="lyQtCp" name="Ticker.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Ticker.h"/>
+      <FILE id="deUJGN" name="Turnstile.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Turnstile.h"/>
+      <FILE id="k26ny4" name="Vortex.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Vortex.h"/>
+      <FILE id="lSP0IT" name="Wash.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Wash.h"/>
+    </GROUP>
+    <GROUP id="{26D28A73-7117-5EA9-016A-5D7494B35111}" name="Source">
+      <FILE id="KylC3a" name="Matrix.h" compile="0" resource="0" file="Source/Matrix.h"/>
+      <FILE id="BQbkOs" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="kGejNf" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="xCNhOL" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="liveleddisplay_test"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="liveleddisplay_test"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
