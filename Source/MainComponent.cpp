@@ -2,14 +2,14 @@
 
 #define HEADER_SIZE 48
 
-#define PIXEL_RATIO 24
+#define PIXEL_RATIO 16
 
-#define HARDWARE_WIDTH 32
+#define HARDWARE_WIDTH 64
 #define HARDWARE_HEIGHT 16
 
 #define MATRIX_WIDTH PIXEL_RATIO*HARDWARE_WIDTH
 #define MATRIX_HEIGHT PIXEL_RATIO*HARDWARE_HEIGHT
-
+/*
 const bool res[16][16] = {
     {0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0},
     {0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0},
@@ -27,6 +27,24 @@ const bool res[16][16] = {
     {0,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0},
     {1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,1},
     {1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1}
+};*/
+const bool res[16][16] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0},
+    {0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0},
+    {0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0},
+    {0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0},
+    {0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0},
+    {0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0},
+    {0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0},
+    {0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0},
+    {0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0},
+    {0,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0},
+    {0,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0},
+    {0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 };
 
 //#include "../liveleddisplay/HearthRes.h"
@@ -93,7 +111,7 @@ void MainComponent::paint (juce::Graphics& g)
     
     test.tick(true);
 
-    test.showFrame(isOtherDisplay);
+    test.showFrame();
 
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
     
@@ -101,7 +119,6 @@ void MainComponent::paint (juce::Graphics& g)
         for (int y = 0; y < HARDWARE_HEIGHT; y++) {
             
             auto localRect = juce::Rectangle<int>(x * PIXEL_RATIO, HEADER_SIZE + y * PIXEL_RATIO, PIXEL_RATIO, PIXEL_RATIO);
-            
             
             
             uint16_t color = matrix.buffer[x][y];

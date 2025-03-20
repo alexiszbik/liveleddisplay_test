@@ -7,105 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163BAA2B0EC13C3176947B4F /* MainComponent.cpp */ = {isa = PBXBuildFile; fileRef = 650E59B82C3B3D2F8B959AF5; };
-		2F92DEDD7D6D931CBB337A44 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = 85A36703E33C6A33BDDF3EF4; };
-		41CC502B5FD743820D02CBA7 /* BinaryData.cpp */ = {isa = PBXBuildFile; fileRef = 6B8B4030556E351AE342CF7C; };
-		498D09B49CDD6BBF263584D8 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 6375EF6C996B3DFE512929C0; };
-		5E12DAF0CCA9F422B3CA50C2 /* Main.cpp */ = {isa = PBXBuildFile; fileRef = 6CF99F6B42A942602B7385A0; };
-		5FC3B785D65EFB6A2C47542F /* MetalKit.framework */ = {isa = PBXBuildFile; fileRef = E01CC4CDB0A5E9300D1C846D; settings = { ATTRIBUTES = (Weak, ); }; };
-		60887F4531F9B4A82031D573 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 063E1BBECDB4C7764A7CFDEA; };
-		71C8720A6F03A16C1D68868E /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = 2D488A0D8276A900B7CB2009; };
-		8C39DA3850AAD9CD0605F4D4 /* App */ = {isa = PBXBuildFile; fileRef = 249F8673656BBB69CA8B31EC; };
-		9AFCD073BBD66F6A2472BD5E /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = F36FE7F5658280C7901D6E26; };
-		AED01C997A0B8A01A613F7F4 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 41B1BEA43C1DABC6E0ED0070; };
-		BF145E25C7AB7D9A669A8498 /* Security.framework */ = {isa = PBXBuildFile; fileRef = 1A9F5DA497CE3CC4D860A51B; };
-		D19E9883B1658808E86A399D /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 16D000BEAADA82C3DFD53057; };
-		E8B705BD2D01410F17F51488 /* include_juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = BE113E17589A640A408FB83B; };
-		EB52D0DCDD950E66053A9072 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 68917C10D78C572AEF627BD0; };
-		EC032564A4D7BF0E4493CA20 /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 92C399BE1E176AAF3F7E05D9; };
-		EEB06A32111A2ED1800159BF /* Metal.framework */ = {isa = PBXBuildFile; fileRef = ECD8F50C183C967278BB8084; settings = { ATTRIBUTES = (Weak, ); }; };
-		F12B7D0B4D66A861A4FE0285 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 0734CEED05FDFBB359680443; };
-		FAD2CEE49B6A44A3410BF2BC /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 0200EEC1C3479B9C0BCFFB34; };
+		163BAA2B0EC13C3176947B4F /* MainComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650E59B82C3B3D2F8B959AF5 /* MainComponent.cpp */; };
+		2F92DEDD7D6D931CBB337A44 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A36703E33C6A33BDDF3EF4 /* WebKit.framework */; };
+		41CC502B5FD743820D02CBA7 /* BinaryData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B4030556E351AE342CF7C /* BinaryData.cpp */; };
+		498D09B49CDD6BBF263584D8 /* include_juce_core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6375EF6C996B3DFE512929C0 /* include_juce_core.mm */; };
+		5E12DAF0CCA9F422B3CA50C2 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CF99F6B42A942602B7385A0 /* Main.cpp */; };
+		5FC3B785D65EFB6A2C47542F /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01CC4CDB0A5E9300D1C846D /* MetalKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		60887F4531F9B4A82031D573 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063E1BBECDB4C7764A7CFDEA /* QuartzCore.framework */; };
+		71C8720A6F03A16C1D68868E /* include_juce_events.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D488A0D8276A900B7CB2009 /* include_juce_events.mm */; };
+		9AFCD073BBD66F6A2472BD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36FE7F5658280C7901D6E26 /* Cocoa.framework */; };
+		AED01C997A0B8A01A613F7F4 /* include_juce_graphics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41B1BEA43C1DABC6E0ED0070 /* include_juce_graphics.mm */; };
+		BF145E25C7AB7D9A669A8498 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F5DA497CE3CC4D860A51B /* Security.framework */; };
+		D19E9883B1658808E86A399D /* include_juce_gui_basics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16D000BEAADA82C3DFD53057 /* include_juce_gui_basics.mm */; };
+		E8B705BD2D01410F17F51488 /* include_juce_gui_extra.mm in Sources */ = {isa = PBXBuildFile; fileRef = BE113E17589A640A408FB83B /* include_juce_gui_extra.mm */; };
+		EB52D0DCDD950E66053A9072 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68917C10D78C572AEF627BD0 /* IOKit.framework */; };
+		EC032564A4D7BF0E4493CA20 /* include_juce_data_structures.mm in Sources */ = {isa = PBXBuildFile; fileRef = 92C399BE1E176AAF3F7E05D9 /* include_juce_data_structures.mm */; };
+		EEB06A32111A2ED1800159BF /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8F50C183C967278BB8084 /* Metal.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F12B7D0B4D66A861A4FE0285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0734CEED05FDFBB359680443 /* Foundation.framework */; };
+		FAD2CEE49B6A44A3410BF2BC /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0200EEC1C3479B9C0BCFFB34 /* RecentFilesMenuTemplate.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		009B60892CA6C927FEC2E1EB /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = ../../JUCE/modules/juce_events; sourceTree = SOURCE_ROOT; };
-		0200EEC1C3479B9C0BCFFB34 /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
-		0214915E4FC8A95517634ABB /* RectangleGroup.h */ /* RectangleGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RectangleGroup.h; path = ../../../TestLEDMatrix/liveleddisplay/RectangleGroup.h; sourceTree = SOURCE_ROOT; };
-		030275426221E0EF7CE017AB /* Palette.h */ /* Palette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Palette.h; path = ../../../TestLEDMatrix/liveleddisplay/Palette.h; sourceTree = SOURCE_ROOT; };
-		063E1BBECDB4C7764A7CFDEA /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		0734CEED05FDFBB359680443 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		088B0285E292F2677AC2C34D /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = ../../JUCE/modules/juce_data_structures; sourceTree = SOURCE_ROOT; };
-		0E865E4DDC4360E2CFC00EDB /* Scene.h */ /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = ../../../TestLEDMatrix/liveleddisplay/Scene.h; sourceTree = SOURCE_ROOT; };
-		0FE4B437D37F6DD70B6B42CC /* LICENSE */ /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = file; name = LICENSE; path = ../../../TestLEDMatrix/liveleddisplay/LICENSE; sourceTree = SOURCE_ROOT; };
-		110E06F9C96E48E7137CF75D /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = ../../JUCE/modules/juce_gui_extra; sourceTree = SOURCE_ROOT; };
-		12DADC22EFCD51A831F23125 /* RandomYMNK.h */ /* RandomYMNK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RandomYMNK.h; path = ../../../TestLEDMatrix/liveleddisplay/RandomYMNK.h; sourceTree = SOURCE_ROOT; };
-		14B2E94C986CCCDFEA30C69F /* Matrix.h */ /* Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = ../../../TestLEDMatrix/liveleddisplay/Matrix.h; sourceTree = SOURCE_ROOT; };
-		158F394EFD5000D3E6D9A880 /* Vortex.h */ /* Vortex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vortex.h; path = ../../../TestLEDMatrix/liveleddisplay/Vortex.h; sourceTree = SOURCE_ROOT; };
-		16D000BEAADA82C3DFD53057 /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
-		1A9F5DA497CE3CC4D860A51B /* Security.framework */ /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		2015F17E4FFF56C820D5CA9C /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = ../../JUCE/modules/juce_core; sourceTree = SOURCE_ROOT; };
-		2211EB37CF3E52C50AC86732 /* Ticker.h */ /* Ticker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ticker.h; path = ../../../TestLEDMatrix/liveleddisplay/Ticker.h; sourceTree = SOURCE_ROOT; };
-		249F8673656BBB69CA8B31EC /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liveleddisplay_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2535F8BF6FCF85AC5090A585 /* BigYMNK.h */ /* BigYMNK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigYMNK.h; path = ../../../TestLEDMatrix/liveleddisplay/BigYMNK.h; sourceTree = SOURCE_ROOT; };
-		29C1B1D8D0632E2EBF7900C8 /* RainDrops.h */ /* RainDrops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RainDrops.h; path = ../../../TestLEDMatrix/liveleddisplay/RainDrops.h; sourceTree = SOURCE_ROOT; };
-		2D488A0D8276A900B7CB2009 /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
-		2D7F747B8A5EC6B2B3E4E8DA /* MainComponent.h */ /* MainComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.h; path = ../../Source/MainComponent.h; sourceTree = SOURCE_ROOT; };
-		3060B72D6720A8073B3C07B3 /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = ../../JUCE/modules/juce_gui_basics; sourceTree = SOURCE_ROOT; };
-		3A0A9FCC6B2496833420180A /* PixNoise.h */ /* PixNoise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PixNoise.h; path = ../../../TestLEDMatrix/liveleddisplay/PixNoise.h; sourceTree = SOURCE_ROOT; };
-		3F5594D6338CC1049C193D62 /* Hearth.h */ /* Hearth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Hearth.h; path = ../../../TestLEDMatrix/liveleddisplay/Hearth.h; sourceTree = SOURCE_ROOT; };
-		41B1BEA43C1DABC6E0ED0070 /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
-		4A54E3A9054D59472B3C87D0 /* BinaryData.h */ /* BinaryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryData.h; path = ../../JuceLibraryCode/BinaryData.h; sourceTree = SOURCE_ROOT; };
-		574F63553A8743C51CFE0807 /* FlashingSign.h */ /* FlashingSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlashingSign.h; path = ../../../TestLEDMatrix/liveleddisplay/FlashingSign.h; sourceTree = SOURCE_ROOT; };
-		5B17B02BE88E12EB03C6EB3D /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = ../../JUCE/modules/juce_graphics; sourceTree = SOURCE_ROOT; };
-		6375EF6C996B3DFE512929C0 /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
-		650E59B82C3B3D2F8B959AF5 /* MainComponent.cpp */ /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
-		68917C10D78C572AEF627BD0 /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		6B8201F83F9607E3BFF019A7 /* Squares.h */ /* Squares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Squares.h; path = ../../../TestLEDMatrix/liveleddisplay/Squares.h; sourceTree = SOURCE_ROOT; };
-		6B8B4030556E351AE342CF7C /* BinaryData.cpp */ /* BinaryData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../../JuceLibraryCode/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
-		6CF99F6B42A942602B7385A0 /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
-		70D472B49516D11EA6EDF680 /* Sticks.h */ /* Sticks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sticks.h; path = ../../../TestLEDMatrix/liveleddisplay/Sticks.h; sourceTree = SOURCE_ROOT; };
-		78F17E67E32AC9845DEEB654 /* Kaomojis.h */ /* Kaomojis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Kaomojis.h; path = ../../../TestLEDMatrix/liveleddisplay/Kaomojis.h; sourceTree = SOURCE_ROOT; };
-		79767F2C4BBA041C6F5AB2D9 /* ColorsAndMatrix.h */ /* ColorsAndMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ColorsAndMatrix.h; path = ../../../TestLEDMatrix/liveleddisplay/ColorsAndMatrix.h; sourceTree = SOURCE_ROOT; };
-		79E472EFB7DD358AEA4FA4EA /* Circles.h */ /* Circles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Circles.h; path = ../../../TestLEDMatrix/liveleddisplay/Circles.h; sourceTree = SOURCE_ROOT; };
-		85A36703E33C6A33BDDF3EF4 /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		86D26F70BA235BA67F9E9D6E /* Sparkles.h */ /* Sparkles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sparkles.h; path = ../../../TestLEDMatrix/liveleddisplay/Sparkles.h; sourceTree = SOURCE_ROOT; };
-		920854984C9266766796F4D4 /* README.md */ /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; name = README.md; path = ../../../TestLEDMatrix/liveleddisplay/README.md; sourceTree = SOURCE_ROOT; };
-		92C399BE1E176AAF3F7E05D9 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
-		937F112D962E0E6ABECB10DE /* Arrows.h */ /* Arrows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Arrows.h; path = ../../../TestLEDMatrix/liveleddisplay/Arrows.h; sourceTree = SOURCE_ROOT; };
-		97C9BCF72C30FA2F7F642FCD /* Rectgle.h */ /* Rectgle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rectgle.h; path = ../../../TestLEDMatrix/liveleddisplay/Rectgle.h; sourceTree = SOURCE_ROOT; };
-		A35A255E39841AE8CEF8AB23 /* Info-App.plist */ /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-App.plist"; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
-		BD52264E443AD36234A0D20F /* Wash.h */ /* Wash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Wash.h; path = ../../../TestLEDMatrix/liveleddisplay/Wash.h; sourceTree = SOURCE_ROOT; };
-		BE113E17589A640A408FB83B /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
-		C0881BE5AC166466157BDB79 /* HearthRes.h */ /* HearthRes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HearthRes.h; path = ../../../TestLEDMatrix/liveleddisplay/HearthRes.h; sourceTree = SOURCE_ROOT; };
-		C4781BE9B04428355C2A36FD /* Matrix.h */ /* Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = ../../Source/Matrix.h; sourceTree = SOURCE_ROOT; };
-		C7AC52B1D710885502E41A25 /* Turnstile.h */ /* Turnstile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Turnstile.h; path = ../../../TestLEDMatrix/liveleddisplay/Turnstile.h; sourceTree = SOURCE_ROOT; };
-		C86D876DE9220CADA1D4A8F2 /* AutoVu.h */ /* AutoVu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoVu.h; path = ../../../TestLEDMatrix/liveleddisplay/AutoVu.h; sourceTree = SOURCE_ROOT; };
-		D244C1455180BB99635E8B9C /* liveleddisplay.ino */ /* liveleddisplay.ino */ = {isa = PBXFileReference; lastKnownFileType = file.ino; name = liveleddisplay.ino; path = ../../../TestLEDMatrix/liveleddisplay/liveleddisplay.ino; sourceTree = SOURCE_ROOT; };
-		D56ED2E35B95125650D60EF8 /* StarTour.h */ /* StarTour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StarTour.h; path = ../../../TestLEDMatrix/liveleddisplay/StarTour.h; sourceTree = SOURCE_ROOT; };
-		DC4DCE8287F16939DB847396 /* SquareDrops.h */ /* SquareDrops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SquareDrops.h; path = ../../../TestLEDMatrix/liveleddisplay/SquareDrops.h; sourceTree = SOURCE_ROOT; };
-		E01CC4CDB0A5E9300D1C846D /* MetalKit.framework */ /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		E26C5AEBB6C0FAAABA50F9CF /* Osc.h */ /* Osc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../../../TestLEDMatrix/liveleddisplay/Osc.h; sourceTree = SOURCE_ROOT; };
-		EA06C6EB7744A6CE26F64230 /* SquareTrail.h */ /* SquareTrail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SquareTrail.h; path = ../../../TestLEDMatrix/liveleddisplay/SquareTrail.h; sourceTree = SOURCE_ROOT; };
-		EB320E75C60A33AAF3FEDB2A /* BigVu.h */ /* BigVu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigVu.h; path = ../../../TestLEDMatrix/liveleddisplay/BigVu.h; sourceTree = SOURCE_ROOT; };
-		ECD8F50C183C967278BB8084 /* Metal.framework */ /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		F36FE7F5658280C7901D6E26 /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		F7AC56D439F50A8A451D68D2 /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		009B60892CA6C927FEC2E1EB /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = ../../JUCE/modules/juce_events; sourceTree = SOURCE_ROOT; };
+		0200EEC1C3479B9C0BCFFB34 /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		021232DDC920653178CE091F /* MessageScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MessageScene.h; path = ../../liveleddisplay/MessageScene.h; sourceTree = SOURCE_ROOT; };
+		063E1BBECDB4C7764A7CFDEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0734CEED05FDFBB359680443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		088B0285E292F2677AC2C34D /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = ../../JUCE/modules/juce_data_structures; sourceTree = SOURCE_ROOT; };
+		0C8FFECF6DCC40C85735D954 /* liveleddisplay.ino */ = {isa = PBXFileReference; lastKnownFileType = file.ino; name = liveleddisplay.ino; path = ../../liveleddisplay/liveleddisplay.ino; sourceTree = SOURCE_ROOT; };
+		110E06F9C96E48E7137CF75D /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = ../../JUCE/modules/juce_gui_extra; sourceTree = SOURCE_ROOT; };
+		16D000BEAADA82C3DFD53057 /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		188B4942A221A393FC8D9A97 /* RandomYMNK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RandomYMNK.h; path = ../../liveleddisplay/RandomYMNK.h; sourceTree = SOURCE_ROOT; };
+		1A9F5DA497CE3CC4D860A51B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2015F17E4FFF56C820D5CA9C /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = ../../JUCE/modules/juce_core; sourceTree = SOURCE_ROOT; };
+		249F8673656BBB69CA8B31EC /* liveleddisplay_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liveleddisplay_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D488A0D8276A900B7CB2009 /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		2D7F747B8A5EC6B2B3E4E8DA /* MainComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.h; path = ../../Source/MainComponent.h; sourceTree = SOURCE_ROOT; };
+		3060B72D6720A8073B3C07B3 /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = ../../JUCE/modules/juce_gui_basics; sourceTree = SOURCE_ROOT; };
+		407CBAA4253EE4F7A2664E62 /* AutoVu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoVu.h; path = ../../liveleddisplay/AutoVu.h; sourceTree = SOURCE_ROOT; };
+		41B1BEA43C1DABC6E0ED0070 /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		4A54E3A9054D59472B3C87D0 /* BinaryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryData.h; path = ../../JuceLibraryCode/BinaryData.h; sourceTree = SOURCE_ROOT; };
+		5921F96B2C19C48E0011AE53 /* Intro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Intro.h; path = ../../liveleddisplay/Intro.h; sourceTree = "<group>"; };
+		5921F96C2C1B0EFB0011AE53 /* Explode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Explode.h; path = ../../liveleddisplay/Explode.h; sourceTree = "<group>"; };
+		59C65C452C94270300236373 /* GfxRes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GfxRes.h; path = /Users/alexiszbik/Documents/Dev/YMNK/liveleddisplay_test/liveleddisplay/GfxRes.h; sourceTree = "<absolute>"; };
+		5B17B02BE88E12EB03C6EB3D /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = ../../JUCE/modules/juce_graphics; sourceTree = SOURCE_ROOT; };
+		5B771830B8924C93FB3F54D5 /* RectangleGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RectangleGroup.h; path = ../../liveleddisplay/RectangleGroup.h; sourceTree = SOURCE_ROOT; };
+		5E4283DBDFFF963E6E17C1AA /* Turnstile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Turnstile.h; path = ../../liveleddisplay/Turnstile.h; sourceTree = SOURCE_ROOT; };
+		60D67891C071D10B636234FF /* Kaomojis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Kaomojis.h; path = ../../liveleddisplay/Kaomojis.h; sourceTree = SOURCE_ROOT; };
+		6375EF6C996B3DFE512929C0 /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		650E59B82C3B3D2F8B959AF5 /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
+		68917C10D78C572AEF627BD0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		6B8B4030556E351AE342CF7C /* BinaryData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../../JuceLibraryCode/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
+		6CF99F6B42A942602B7385A0 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		7858AAC3CC4D45361F07FA80 /* Ticker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ticker.h; path = ../../liveleddisplay/Ticker.h; sourceTree = SOURCE_ROOT; };
+		7DFF8094568CAAA4A3E894C2 /* Circles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Circles.h; path = ../../liveleddisplay/Circles.h; sourceTree = SOURCE_ROOT; };
+		8098D736B1DCE022AD521245 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = ../../liveleddisplay/Scene.h; sourceTree = SOURCE_ROOT; };
+		82679B74195E4E7FBAEC662C /* PixNoise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PixNoise.h; path = ../../liveleddisplay/PixNoise.h; sourceTree = SOURCE_ROOT; };
+		83B758D17738A1C5B61B0002 /* ColorsAndMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ColorsAndMatrix.h; path = ../../liveleddisplay/ColorsAndMatrix.h; sourceTree = SOURCE_ROOT; };
+		85A36703E33C6A33BDDF3EF4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8F77C7E810FCAB275C71048C /* SquareDrops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SquareDrops.h; path = ../../liveleddisplay/SquareDrops.h; sourceTree = SOURCE_ROOT; };
+		92C399BE1E176AAF3F7E05D9 /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		9C6863819F74E1F2F4A4B1E7 /* BigYMNK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigYMNK.h; path = ../../liveleddisplay/BigYMNK.h; sourceTree = SOURCE_ROOT; };
+		A35A255E39841AE8CEF8AB23 /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
+		A410B334AEA1C62D517114AE /* Arrows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Arrows.h; path = ../../liveleddisplay/Arrows.h; sourceTree = SOURCE_ROOT; };
+		AC1980F50BC7471814DBC4E5 /* StarTour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StarTour.h; path = ../../liveleddisplay/StarTour.h; sourceTree = SOURCE_ROOT; };
+		AED054B87A28192068D920F3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../liveleddisplay/LICENSE; sourceTree = SOURCE_ROOT; };
+		B3F6ABB1B5A75D5C304B79A7 /* Vortex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vortex.h; path = ../../liveleddisplay/Vortex.h; sourceTree = SOURCE_ROOT; };
+		BA77841363682CC23B48B525 /* FlashingSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlashingSign.h; path = ../../liveleddisplay/FlashingSign.h; sourceTree = SOURCE_ROOT; };
+		BE113E17589A640A408FB83B /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
+		C30433CED7E2073F95A28580 /* Palette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Palette.h; path = ../../liveleddisplay/Palette.h; sourceTree = SOURCE_ROOT; };
+		C4781BE9B04428355C2A36FD /* Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = ../../Source/Matrix.h; sourceTree = SOURCE_ROOT; };
+		C545491D793F887F107CDD26 /* BigVu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigVu.h; path = ../../liveleddisplay/BigVu.h; sourceTree = SOURCE_ROOT; };
+		DF46FF295AD35690CD797121 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; name = README.md; path = ../../liveleddisplay/README.md; sourceTree = SOURCE_ROOT; };
+		E01CC4CDB0A5E9300D1C846D /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		E0AEC823FB3833D99C7BE3D5 /* optimizing flash memory */ = {isa = PBXFileReference; lastKnownFileType = text; name = "optimizing flash memory"; path = "../../liveleddisplay/optimizing flash memory"; sourceTree = SOURCE_ROOT; };
+		EAB29364EBCE328B3136954C /* Sticks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sticks.h; path = ../../liveleddisplay/Sticks.h; sourceTree = SOURCE_ROOT; };
+		EBCA1B8E06AA9BE9C9E70B51 /* RainDrops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RainDrops.h; path = ../../liveleddisplay/RainDrops.h; sourceTree = SOURCE_ROOT; };
+		ECD8F50C183C967278BB8084 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		F32DD3F0539BBF5CB3A88664 /* Gfx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Gfx.h; path = ../../liveleddisplay/Gfx.h; sourceTree = SOURCE_ROOT; };
+		F36FE7F5658280C7901D6E26 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F3B346CE22A69C17DC289877 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = ../../liveleddisplay/Rectangle.h; sourceTree = SOURCE_ROOT; };
+		F3DF5836436B55B87E935AB5 /* Osc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../../liveleddisplay/Osc.h; sourceTree = SOURCE_ROOT; };
+		F7AC56D439F50A8A451D68D2 /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27BB60110732ECAA39DBBD29 = {
+		27BB60110732ECAA39DBBD29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFCD073BBD66F6A2472BD5E,
-				F12B7D0B4D66A861A4FE0285,
-				EB52D0DCDD950E66053A9072,
-				60887F4531F9B4A82031D573,
-				BF145E25C7AB7D9A669A8498,
-				2F92DEDD7D6D931CBB337A44,
-				EEB06A32111A2ED1800159BF,
-				5FC3B785D65EFB6A2C47542F,
+				9AFCD073BBD66F6A2472BD5E /* Cocoa.framework in Frameworks */,
+				F12B7D0B4D66A861A4FE0285 /* Foundation.framework in Frameworks */,
+				EB52D0DCDD950E66053A9072 /* IOKit.framework in Frameworks */,
+				60887F4531F9B4A82031D573 /* QuartzCore.framework in Frameworks */,
+				BF145E25C7AB7D9A669A8498 /* Security.framework in Frameworks */,
+				2F92DEDD7D6D931CBB337A44 /* WebKit.framework in Frameworks */,
+				EEB06A32111A2ED1800159BF /* Metal.framework in Frameworks */,
+				5FC3B785D65EFB6A2C47542F /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,10 +113,10 @@
 		0209690BD1B5B27E2C7CD5FC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C4781BE9B04428355C2A36FD,
-				6CF99F6B42A942602B7385A0,
-				2D7F747B8A5EC6B2B3E4E8DA,
-				650E59B82C3B3D2F8B959AF5,
+				C4781BE9B04428355C2A36FD /* Matrix.h */,
+				6CF99F6B42A942602B7385A0 /* Main.cpp */,
+				2D7F747B8A5EC6B2B3E4E8DA /* MainComponent.h */,
+				650E59B82C3B3D2F8B959AF5 /* MainComponent.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -126,14 +124,14 @@
 		0C051599BB4962637E743876 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F36FE7F5658280C7901D6E26,
-				0734CEED05FDFBB359680443,
-				68917C10D78C572AEF627BD0,
-				063E1BBECDB4C7764A7CFDEA,
-				1A9F5DA497CE3CC4D860A51B,
-				85A36703E33C6A33BDDF3EF4,
-				ECD8F50C183C967278BB8084,
-				E01CC4CDB0A5E9300D1C846D,
+				F36FE7F5658280C7901D6E26 /* Cocoa.framework */,
+				0734CEED05FDFBB359680443 /* Foundation.framework */,
+				68917C10D78C572AEF627BD0 /* IOKit.framework */,
+				063E1BBECDB4C7764A7CFDEA /* QuartzCore.framework */,
+				1A9F5DA497CE3CC4D860A51B /* Security.framework */,
+				85A36703E33C6A33BDDF3EF4 /* WebKit.framework */,
+				ECD8F50C183C967278BB8084 /* Metal.framework */,
+				E01CC4CDB0A5E9300D1C846D /* MetalKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,12 +139,12 @@
 		17B9BD54661D8482712730BD /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				EB034565D10EE9205B7451E9,
-				8ED26AA5FCEBCC7DE17CC7BB,
-				FB12274E8125BF97F78FCEAF,
-				1FCE35C5F444ABCB636FC9A2,
-				0C051599BB4962637E743876,
-				D3F7C37B7656541ED0792652,
+				EB034565D10EE9205B7451E9 /* liveleddisplay_test */,
+				8ED26AA5FCEBCC7DE17CC7BB /* JUCE Modules */,
+				FB12274E8125BF97F78FCEAF /* JUCE Library Code */,
+				1FCE35C5F444ABCB636FC9A2 /* Resources */,
+				0C051599BB4962637E743876 /* Frameworks */,
+				D3F7C37B7656541ED0792652 /* Products */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -154,8 +152,8 @@
 		1FCE35C5F444ABCB636FC9A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A35A255E39841AE8CEF8AB23,
-				0200EEC1C3479B9C0BCFFB34,
+				A35A255E39841AE8CEF8AB23 /* Info-App.plist */,
+				0200EEC1C3479B9C0BCFFB34 /* RecentFilesMenuTemplate.nib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -163,12 +161,12 @@
 		8ED26AA5FCEBCC7DE17CC7BB /* JUCE Modules */ = {
 			isa = PBXGroup;
 			children = (
-				2015F17E4FFF56C820D5CA9C,
-				088B0285E292F2677AC2C34D,
-				009B60892CA6C927FEC2E1EB,
-				5B17B02BE88E12EB03C6EB3D,
-				3060B72D6720A8073B3C07B3,
-				110E06F9C96E48E7137CF75D,
+				2015F17E4FFF56C820D5CA9C /* juce_core */,
+				088B0285E292F2677AC2C34D /* juce_data_structures */,
+				009B60892CA6C927FEC2E1EB /* juce_events */,
+				5B17B02BE88E12EB03C6EB3D /* juce_graphics */,
+				3060B72D6720A8073B3C07B3 /* juce_gui_basics */,
+				110E06F9C96E48E7137CF75D /* juce_gui_extra */,
 			);
 			name = "JUCE Modules";
 			sourceTree = "<group>";
@@ -176,7 +174,7 @@
 		D3F7C37B7656541ED0792652 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				249F8673656BBB69CA8B31EC,
+				249F8673656BBB69CA8B31EC /* liveleddisplay_test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,8 +182,8 @@
 		EB034565D10EE9205B7451E9 /* liveleddisplay_test */ = {
 			isa = PBXGroup;
 			children = (
-				EDCEC072E8EAF88D3B7F246B,
-				0209690BD1B5B27E2C7CD5FC,
+				EDCEC072E8EAF88D3B7F246B /* liveleddisplay */,
+				0209690BD1B5B27E2C7CD5FC /* Source */,
 			);
 			name = liveleddisplay_test;
 			sourceTree = "<group>";
@@ -193,38 +191,37 @@
 		EDCEC072E8EAF88D3B7F246B /* liveleddisplay */ = {
 			isa = PBXGroup;
 			children = (
-				937F112D962E0E6ABECB10DE,
-				C86D876DE9220CADA1D4A8F2,
-				EB320E75C60A33AAF3FEDB2A,
-				2535F8BF6FCF85AC5090A585,
-				79E472EFB7DD358AEA4FA4EA,
-				79767F2C4BBA041C6F5AB2D9,
-				574F63553A8743C51CFE0807,
-				3F5594D6338CC1049C193D62,
-				C0881BE5AC166466157BDB79,
-				78F17E67E32AC9845DEEB654,
-				0FE4B437D37F6DD70B6B42CC,
-				D244C1455180BB99635E8B9C,
-				14B2E94C986CCCDFEA30C69F,
-				E26C5AEBB6C0FAAABA50F9CF,
-				030275426221E0EF7CE017AB,
-				3A0A9FCC6B2496833420180A,
-				29C1B1D8D0632E2EBF7900C8,
-				12DADC22EFCD51A831F23125,
-				920854984C9266766796F4D4,
-				0214915E4FC8A95517634ABB,
-				97C9BCF72C30FA2F7F642FCD,
-				0E865E4DDC4360E2CFC00EDB,
-				86D26F70BA235BA67F9E9D6E,
-				DC4DCE8287F16939DB847396,
-				6B8201F83F9607E3BFF019A7,
-				EA06C6EB7744A6CE26F64230,
-				D56ED2E35B95125650D60EF8,
-				70D472B49516D11EA6EDF680,
-				2211EB37CF3E52C50AC86732,
-				C7AC52B1D710885502E41A25,
-				158F394EFD5000D3E6D9A880,
-				BD52264E443AD36234A0D20F,
+				59C65C452C94270300236373 /* GfxRes.h */,
+				A410B334AEA1C62D517114AE /* Arrows.h */,
+				407CBAA4253EE4F7A2664E62 /* AutoVu.h */,
+				C545491D793F887F107CDD26 /* BigVu.h */,
+				9C6863819F74E1F2F4A4B1E7 /* BigYMNK.h */,
+				7DFF8094568CAAA4A3E894C2 /* Circles.h */,
+				83B758D17738A1C5B61B0002 /* ColorsAndMatrix.h */,
+				BA77841363682CC23B48B525 /* FlashingSign.h */,
+				F32DD3F0539BBF5CB3A88664 /* Gfx.h */,
+				60D67891C071D10B636234FF /* Kaomojis.h */,
+				AED054B87A28192068D920F3 /* LICENSE */,
+				0C8FFECF6DCC40C85735D954 /* liveleddisplay.ino */,
+				021232DDC920653178CE091F /* MessageScene.h */,
+				E0AEC823FB3833D99C7BE3D5 /* optimizing flash memory */,
+				F3DF5836436B55B87E935AB5 /* Osc.h */,
+				5921F96C2C1B0EFB0011AE53 /* Explode.h */,
+				C30433CED7E2073F95A28580 /* Palette.h */,
+				82679B74195E4E7FBAEC662C /* PixNoise.h */,
+				EBCA1B8E06AA9BE9C9E70B51 /* RainDrops.h */,
+				5921F96B2C19C48E0011AE53 /* Intro.h */,
+				188B4942A221A393FC8D9A97 /* RandomYMNK.h */,
+				DF46FF295AD35690CD797121 /* README.md */,
+				F3B346CE22A69C17DC289877 /* Rectangle.h */,
+				5B771830B8924C93FB3F54D5 /* RectangleGroup.h */,
+				8098D736B1DCE022AD521245 /* Scene.h */,
+				8F77C7E810FCAB275C71048C /* SquareDrops.h */,
+				AC1980F50BC7471814DBC4E5 /* StarTour.h */,
+				EAB29364EBCE328B3136954C /* Sticks.h */,
+				7858AAC3CC4D45361F07FA80 /* Ticker.h */,
+				5E4283DBDFFF963E6E17C1AA /* Turnstile.h */,
+				B3F6ABB1B5A75D5C304B79A7 /* Vortex.h */,
 			);
 			name = liveleddisplay;
 			sourceTree = "<group>";
@@ -232,15 +229,15 @@
 		FB12274E8125BF97F78FCEAF /* JUCE Library Code */ = {
 			isa = PBXGroup;
 			children = (
-				6B8B4030556E351AE342CF7C,
-				4A54E3A9054D59472B3C87D0,
-				6375EF6C996B3DFE512929C0,
-				92C399BE1E176AAF3F7E05D9,
-				2D488A0D8276A900B7CB2009,
-				41B1BEA43C1DABC6E0ED0070,
-				16D000BEAADA82C3DFD53057,
-				BE113E17589A640A408FB83B,
-				F7AC56D439F50A8A451D68D2,
+				6B8B4030556E351AE342CF7C /* BinaryData.cpp */,
+				4A54E3A9054D59472B3C87D0 /* BinaryData.h */,
+				6375EF6C996B3DFE512929C0 /* include_juce_core.mm */,
+				92C399BE1E176AAF3F7E05D9 /* include_juce_data_structures.mm */,
+				2D488A0D8276A900B7CB2009 /* include_juce_events.mm */,
+				41B1BEA43C1DABC6E0ED0070 /* include_juce_graphics.mm */,
+				16D000BEAADA82C3DFD53057 /* include_juce_gui_basics.mm */,
+				BE113E17589A640A408FB83B /* include_juce_gui_extra.mm */,
+				F7AC56D439F50A8A451D68D2 /* JuceHeader.h */,
 			);
 			name = "JUCE Library Code";
 			sourceTree = "<group>";
@@ -250,11 +247,11 @@
 /* Begin PBXNativeTarget section */
 		74BFC9A390CE4C28909EDD27 /* liveleddisplay_test - App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FAEF913AC77802CFD07EE44;
+			buildConfigurationList = 9FAEF913AC77802CFD07EE44 /* Build configuration list for PBXNativeTarget "liveleddisplay_test - App" */;
 			buildPhases = (
-				6B7EA0A6B8CF3FFB8083E2EB,
-				D6565DC1CE7A871F13AF6DEB,
-				27BB60110732ECAA39DBBD29,
+				6B7EA0A6B8CF3FFB8083E2EB /* Resources */,
+				D6565DC1CE7A871F13AF6DEB /* Sources */,
+				27BB60110732ECAA39DBBD29 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,16 +259,15 @@
 			);
 			name = "liveleddisplay_test - App";
 			productName = liveleddisplay_test;
-			productReference = 249F8673656BBB69CA8B31EC;
+			productReference = 249F8673656BBB69CA8B31EC /* liveleddisplay_test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1B23163058756AFC464DA92E = {
+		1B23163058756AFC464DA92E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
@@ -299,47 +295,48 @@
 					};
 				};
 			};
-			buildConfigurationList = 18C713FCA57A2E264A6F0916;
+			buildConfigurationList = 18C713FCA57A2E264A6F0916 /* Build configuration list for PBXProject "liveleddisplay_test" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 17B9BD54661D8482712730BD;
+			mainGroup = 17B9BD54661D8482712730BD /* Source */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74BFC9A390CE4C28909EDD27,
+				74BFC9A390CE4C28909EDD27 /* liveleddisplay_test - App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B7EA0A6B8CF3FFB8083E2EB = {
+		6B7EA0A6B8CF3FFB8083E2EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD2CEE49B6A44A3410BF2BC,
+				FAD2CEE49B6A44A3410BF2BC /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D6565DC1CE7A871F13AF6DEB = {
+		D6565DC1CE7A871F13AF6DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E12DAF0CCA9F422B3CA50C2,
-				163BAA2B0EC13C3176947B4F,
-				41CC502B5FD743820D02CBA7,
-				498D09B49CDD6BBF263584D8,
-				EC032564A4D7BF0E4493CA20,
-				71C8720A6F03A16C1D68868E,
-				AED01C997A0B8A01A613F7F4,
-				D19E9883B1658808E86A399D,
-				E8B705BD2D01410F17F51488,
+				5E12DAF0CCA9F422B3CA50C2 /* Main.cpp in Sources */,
+				163BAA2B0EC13C3176947B4F /* MainComponent.cpp in Sources */,
+				41CC502B5FD743820D02CBA7 /* BinaryData.cpp in Sources */,
+				498D09B49CDD6BBF263584D8 /* include_juce_core.mm in Sources */,
+				EC032564A4D7BF0E4493CA20 /* include_juce_data_structures.mm in Sources */,
+				71C8720A6F03A16C1D68868E /* include_juce_events.mm in Sources */,
+				AED01C997A0B8A01A613F7F4 /* include_juce_graphics.mm in Sources */,
+				D19E9883B1658808E86A399D /* include_juce_gui_basics.mm in Sources */,
+				E8B705BD2D01410F17F51488 /* include_juce_gui_extra.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +383,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_CODE_SIGN_FLAGS = --timestamp;
-				PRODUCT_NAME = "liveleddisplay_test";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_NAME = liveleddisplay_test;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
@@ -439,14 +436,14 @@
 					"$(SRCROOT)/../../JUCE/modules",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_FILE = "Info-App.plist";
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../JUCE/modules";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.liveleddisplay_test;
-				PRODUCT_NAME = "liveleddisplay_test";
+				PRODUCT_NAME = liveleddisplay_test;
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
@@ -493,8 +490,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CODE_SIGN_FLAGS = --timestamp;
-				PRODUCT_NAME = "liveleddisplay_test";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_NAME = liveleddisplay_test;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
@@ -546,13 +543,13 @@
 					"$(SRCROOT)/../../JUCE/modules",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_FILE = "Info-App.plist";
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../JUCE/modules";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.liveleddisplay_test;
-				PRODUCT_NAME = "liveleddisplay_test";
+				PRODUCT_NAME = liveleddisplay_test;
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
@@ -561,20 +558,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18C713FCA57A2E264A6F0916 = {
+		18C713FCA57A2E264A6F0916 /* Build configuration list for PBXProject "liveleddisplay_test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50CDEE9965BAF80A2D461BF4,
-				B7C53D96E676FEF4C2377707,
+				50CDEE9965BAF80A2D461BF4 /* Release */,
+				B7C53D96E676FEF4C2377707 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9FAEF913AC77802CFD07EE44 = {
+		9FAEF913AC77802CFD07EE44 /* Build configuration list for PBXNativeTarget "liveleddisplay_test - App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7693D4C4F397D377B8B8467,
-				9D7F5835A1BC4E6F6C42ADE7,
+				C7693D4C4F397D377B8B8467 /* Debug */,
+				9D7F5835A1BC4E6F6C42ADE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

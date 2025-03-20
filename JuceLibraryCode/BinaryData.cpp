@@ -571,6 +571,7 @@ static const unsigned char temp_binary_data_1[] =
 "const char string_2[] PROGMEM = \"&\";\n"
 "const char string_3[] PROGMEM = \"BRAVERY\";\n"
 "\n"
+"\n"
 "const char *const brighterWords[1] PROGMEM = {string_0};\n"
 "const char *const friendshipWords[3] PROGMEM = {string_1, string_2, string_3};\n"
 "\n"
@@ -585,10 +586,11 @@ static const unsigned char temp_binary_data_1[] =
 "  Serial.begin(9600);\n"
 "\n"
 "  matrix.begin();\n"
+"  matrix.setTextWrap(false);\n"
 "  \n"
 "  MIDI.setHandleNoteOn(handleNoteOn);\n"
 "  MIDI.setHandleProgramChange(handleProgramChange);\n"
-"  MIDI.begin(MIDI_CHANNEL_OMNI);\n"
+"  MIDI.begin(16);\n"
 "\n"
 "  MIDI.setHandleStart(handleStart);\n"
 "  MIDI.setHandleStop(handleStop);\n"
@@ -664,6 +666,7 @@ static const unsigned char temp_binary_data_1[] =
 "        break;\n"
 "\n"
 "      //Pers End\n"
+"      \n"
 "      case 18 : scene = new Kaomojis(new RainbowPalette());\n"
 "        break;\n"
 "\n"
@@ -745,6 +748,11 @@ static const unsigned char temp_binary_data_1[] =
 "      case 50 : scene = new Circles(RED_P, true);\n"
 "        break;\n"
 "\n"
+"      //Sexy boy\n"
+"      /*\n"
+"      case 53 : scene = new FlashingSign(COLOR(0,0,7), sexyboysWords, 3, 1);\n"
+"        break;*/\n"
+"\n"
 "  \n"
 "      default: scene = new Squares(new RainbowPalette());\n"
 "        break;\n"
@@ -779,12 +787,56 @@ static const unsigned char temp_binary_data_1[] =
 
 const char* liveleddisplay_ino = (const char*) temp_binary_data_1;
 
-//================== README.md ==================
+//================== optimizing flash memory ==================
 static const unsigned char temp_binary_data_2[] =
+"32284\n"
+"31631 sans ColorHSV\n"
+"\n"
+"32284\n"
+"\n"
+"BigYMNK remove inverted\n"
+"32136\n"
+"\n"
+"use setTextWrap once\n"
+"32128\n"
+"\n"
+"factorize random(1000)\n"
+"31988\n"
+"\n"
+"31984\n"
+"\n"
+"31960\n"
+"\n"
+"remove useless code in Sticks\n"
+"31870\n"
+"\n"
+"factorize tick(state) > needRefresh\n"
+"31858\n"
+"\n"
+"pre allocated colors\n"
+"30984\n"
+"\n"
+"more factorize tick(state) > needRefresh \n"
+"30954\n"
+"30948\n"
+"\n"
+"pixnoize optimization\n"
+"30940\n"
+"\n"
+"factorize messages (kamojis & flashing sign)\n"
+"30848\n"
+"\n"
+"optimize vortex\n"
+"30804";
+
+const char* optimizing_flash_memory = (const char*) temp_binary_data_2;
+
+//================== README.md ==================
+static const unsigned char temp_binary_data_3[] =
 "# liveleddisplay\n"
 "LED Matrix animated for my live setup\n";
 
-const char* README_md = (const char*) temp_binary_data_2;
+const char* README_md = (const char*) temp_binary_data_3;
 
 
 const char* getNamedResource (const char* resourceNameUTF8, int& numBytes);
@@ -799,7 +851,8 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
     switch (hash)
     {
         case 0x34bc1021:  numBytes = 35149; return LICENSE;
-        case 0x3adf8bee:  numBytes = 5356; return liveleddisplay_ino;
+        case 0x3adf8bee:  numBytes = 5499; return liveleddisplay_ino;
+        case 0x83819bf5:  numBytes = 402; return optimizing_flash_memory;
         case 0x64791dc8:  numBytes = 55; return README_md;
         default: break;
     }
@@ -812,6 +865,7 @@ const char* namedResourceList[] =
 {
     "LICENSE",
     "liveleddisplay_ino",
+    "optimizing_flash_memory",
     "README_md"
 };
 
@@ -819,6 +873,7 @@ const char* originalFilenames[] =
 {
     "LICENSE",
     "liveleddisplay.ino",
+    "optimizing flash memory",
     "README.md"
 };
 

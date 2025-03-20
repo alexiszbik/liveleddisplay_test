@@ -2,13 +2,15 @@
 #ifndef MATRIX_H
 #define MATRIX_H
 
-
 class RGBmatrixPanel {
     static const int maxH = 16;
-    static const int maxW = 32;
+    static const int maxW = 64;
 public:
     RGBmatrixPanel() {
     }
+    
+#define PROGMEM
+#define pgm_read_word *
     
 #ifndef _swap_int16_t
 #define _swap_int16_t(a, b)                                                    \

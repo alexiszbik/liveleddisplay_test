@@ -3,4 +3,4 @@
 	url = https://github.com/juce-framework/JUCE.git
 [submodule "liveleddisplay"]
 	path = liveleddisplay
-	url = https://github.com/alexiszbik/liveleddisplay.git
+	url = git@github.com:alexiszbik/liveleddisplay.git

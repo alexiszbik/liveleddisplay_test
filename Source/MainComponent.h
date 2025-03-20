@@ -35,8 +35,6 @@ typedef int byte;
 #define A1 0
 #define A2 0
 
-
-
 #include "../liveleddisplay/Arrows.h"
 #include "../liveleddisplay/AutoVu.h"
 #include "../liveleddisplay/BigVu.h"
@@ -50,7 +48,10 @@ typedef int byte;
 #include "../liveleddisplay/Sticks.h"
 #include "../liveleddisplay/SquareDrops.h"
 #include "../liveleddisplay/Turnstile.h"
+#include "../liveleddisplay/Gfx.h"
 #include "../liveleddisplay/Vortex.h"
+#include "../liveleddisplay/Intro.h"
+#include "../liveleddisplay/Explode.h"
 //#include "../liveleddisplay/Sparkles.h"
 //#include "../liveleddisplay/Wash.h"
 
@@ -79,13 +80,19 @@ private:
 
 #define BLUE_P new Palette(8, 0, 0, 7)
 #define BLUE_P_S new Palette(4, 0, 7, 7)
+#define PINKU_P new Palette(8, 7, 0, 7)
 #define CYAN new Palette(8, 0, 7, 7)
 #define RED_P new Palette(8, 7, 0, 0)
     
     //BigVu test = BigVu(new VuPalette(), 60, 4, BigVu::verticalWide);
     
     //Sparkles test = Sparkles();
-    SquareDrops test = SquareDrops(BLUE_P);
+    //SquareTrail test = SquareTrail(BLUE_P_S, false);
+    //Sticks test = Sticks(RED_P);
+    //Gfx test = Gfx(RED_P, GfxEnum::gfx_hearth, Gfx::EGfxMode::gfxMode_normal);
+    //SquareDrops test = SquareDrops(new RainbowPalette(), SquareDrops::wash);
+    Osc test = Osc(new Palette(COLOR(7,0,0), COLOR(0,7,0), COLOR(0,0,7)));
+    //Osc test = Osc(new Palette(COLOR(7,0,0)));
     
     int framesPerSecond = 12;
     bool framesPerSecondeChanged = false;

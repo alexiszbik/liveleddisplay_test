@@ -12,13 +12,16 @@ namespace BinaryData
     const int            LICENSESize = 35149;
 
     extern const char*   liveleddisplay_ino;
-    const int            liveleddisplay_inoSize = 5356;
+    const int            liveleddisplay_inoSize = 5499;
+
+    extern const char*   optimizing_flash_memory;
+    const int            optimizing_flash_memorySize = 402;
 
     extern const char*   README_md;
     const int            README_mdSize = 55;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 3;
+    const int namedResourceListSize = 4;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];
