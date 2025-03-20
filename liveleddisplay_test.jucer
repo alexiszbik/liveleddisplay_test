@@ -4,41 +4,41 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="yuvrY2" name="liveleddisplay_test">
     <GROUP id="{B72F6FE5-1785-8E15-51BA-A3C21FBD2D16}" name="liveleddisplay">
-      <FILE id="juhT9m" name="Arrows.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Arrows.h"/>
-      <FILE id="njgf8g" name="AutoVu.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/AutoVu.h"/>
-      <FILE id="AzFmQq" name="BigVu.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/BigVu.h"/>
-      <FILE id="jt8bHT" name="BigYMNK.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/BigYMNK.h"/>
-      <FILE id="tvP20F" name="Circles.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Circles.h"/>
-      <FILE id="ZjqGrb" name="ColorsAndMatrix.h" compile="0" resource="0"
-            file="../TestLEDMatrix/liveleddisplay/ColorsAndMatrix.h"/>
-      <FILE id="s1aioc" name="FlashingSign.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/FlashingSign.h"/>
-      <FILE id="En74xI" name="Hearth.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Hearth.h"/>
-      <FILE id="mwSAXT" name="HearthRes.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/HearthRes.h"/>
-      <FILE id="LeeJSC" name="Kaomojis.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Kaomojis.h"/>
-      <FILE id="nBLidh" name="LICENSE" compile="0" resource="1" file="../TestLEDMatrix/liveleddisplay/LICENSE"/>
-      <FILE id="Jpg7eM" name="liveleddisplay.ino" compile="0" resource="1"
-            file="../TestLEDMatrix/liveleddisplay/liveleddisplay.ino"/>
-      <FILE id="iE0lWU" name="Matrix.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Matrix.h"/>
-      <FILE id="XhK2BT" name="Osc.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Osc.h"/>
-      <FILE id="VUQxVd" name="Palette.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Palette.h"/>
-      <FILE id="BChZGR" name="PixNoise.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/PixNoise.h"/>
-      <FILE id="fsKiB5" name="RainDrops.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/RainDrops.h"/>
-      <FILE id="AtmloY" name="RandomYMNK.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/RandomYMNK.h"/>
-      <FILE id="cUFzlZ" name="README.md" compile="0" resource="1" file="../TestLEDMatrix/liveleddisplay/README.md"/>
-      <FILE id="lzpR0k" name="RectangleGroup.h" compile="0" resource="0"
-            file="../TestLEDMatrix/liveleddisplay/RectangleGroup.h"/>
-      <FILE id="eFI9Q8" name="Rectgle.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Rectgle.h"/>
-      <FILE id="eOwkLi" name="Scene.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Scene.h"/>
-      <FILE id="I4ghri" name="Sparkles.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Sparkles.h"/>
-      <FILE id="Tda4tc" name="SquareDrops.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/SquareDrops.h"/>
-      <FILE id="rM8zYR" name="Squares.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Squares.h"/>
-      <FILE id="VKXyKD" name="SquareTrail.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/SquareTrail.h"/>
-      <FILE id="ABelJj" name="StarTour.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/StarTour.h"/>
-      <FILE id="F6XQYa" name="Sticks.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Sticks.h"/>
-      <FILE id="lyQtCp" name="Ticker.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Ticker.h"/>
-      <FILE id="deUJGN" name="Turnstile.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Turnstile.h"/>
-      <FILE id="k26ny4" name="Vortex.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Vortex.h"/>
-      <FILE id="lSP0IT" name="Wash.h" compile="0" resource="0" file="../TestLEDMatrix/liveleddisplay/Wash.h"/>
+      <FILE id="KUP3Ri" name="Arrows.h" compile="0" resource="0" file="liveleddisplay/Arrows.h"/>
+      <FILE id="zS8kTv" name="AutoVu.h" compile="0" resource="0" file="liveleddisplay/AutoVu.h"/>
+      <FILE id="NrCCFS" name="BigVu.h" compile="0" resource="0" file="liveleddisplay/BigVu.h"/>
+      <FILE id="ZmJUi3" name="BigYMNK.h" compile="0" resource="0" file="liveleddisplay/BigYMNK.h"/>
+      <FILE id="grskoU" name="Circles.h" compile="0" resource="0" file="liveleddisplay/Circles.h"/>
+      <FILE id="bv8OEu" name="ColorsAndMatrix.h" compile="0" resource="0"
+            file="liveleddisplay/ColorsAndMatrix.h"/>
+      <FILE id="vOkNTM" name="FlashingSign.h" compile="0" resource="0" file="liveleddisplay/FlashingSign.h"/>
+      <FILE id="j6TjVa" name="Hearth.h" compile="0" resource="0" file="liveleddisplay/Hearth.h"/>
+      <FILE id="lipye5" name="Kaomojis.h" compile="0" resource="0" file="liveleddisplay/Kaomojis.h"/>
+      <FILE id="Zl9hNR" name="LICENSE" compile="0" resource="1" file="liveleddisplay/LICENSE"/>
+      <FILE id="scqESb" name="liveleddisplay.ino" compile="0" resource="1"
+            file="liveleddisplay/liveleddisplay.ino"/>
+      <FILE id="Trp3Qf" name="MessageScene.h" compile="0" resource="0" file="liveleddisplay/MessageScene.h"/>
+      <FILE id="YLr0jW" name="optimizing flash memory" compile="0" resource="1"
+            file="liveleddisplay/optimizing flash memory"/>
+      <FILE id="VkWbgr" name="Osc.h" compile="0" resource="0" file="liveleddisplay/Osc.h"/>
+      <FILE id="AAy6rZ" name="Palette.h" compile="0" resource="0" file="liveleddisplay/Palette.h"/>
+      <FILE id="MnEceO" name="PixNoise.h" compile="0" resource="0" file="liveleddisplay/PixNoise.h"/>
+      <FILE id="uKZ0cz" name="RainDrops.h" compile="0" resource="0" file="liveleddisplay/RainDrops.h"/>
+      <FILE id="rUFRwo" name="RandomYMNK.h" compile="0" resource="0" file="liveleddisplay/RandomYMNK.h"/>
+      <FILE id="kfIwJN" name="README.md" compile="0" resource="1" file="liveleddisplay/README.md"/>
+      <FILE id="vhEASS" name="Rectangle.h" compile="0" resource="0" file="liveleddisplay/Rectangle.h"/>
+      <FILE id="CvyfzZ" name="RectangleGroup.h" compile="0" resource="0"
+            file="liveleddisplay/RectangleGroup.h"/>
+      <FILE id="rzyIpg" name="Scene.h" compile="0" resource="0" file="liveleddisplay/Scene.h"/>
+      <FILE id="clpfXP" name="SquareDrops.h" compile="0" resource="0" file="liveleddisplay/SquareDrops.h"/>
+      <FILE id="x9aCwU" name="Squares.h" compile="0" resource="0" file="liveleddisplay/Squares.h"/>
+      <FILE id="DADjD9" name="SquareScene.h" compile="0" resource="0" file="liveleddisplay/SquareScene.h"/>
+      <FILE id="RFBVjN" name="SquareTrail.h" compile="0" resource="0" file="liveleddisplay/SquareTrail.h"/>
+      <FILE id="Y2v1BC" name="StarTour.h" compile="0" resource="0" file="liveleddisplay/StarTour.h"/>
+      <FILE id="JayjQj" name="Sticks.h" compile="0" resource="0" file="liveleddisplay/Sticks.h"/>
+      <FILE id="Zck2Or" name="Ticker.h" compile="0" resource="0" file="liveleddisplay/Ticker.h"/>
+      <FILE id="wi5H40" name="Turnstile.h" compile="0" resource="0" file="liveleddisplay/Turnstile.h"/>
+      <FILE id="AGe88s" name="Vortex.h" compile="0" resource="0" file="liveleddisplay/Vortex.h"/>
     </GROUP>
     <GROUP id="{26D28A73-7117-5EA9-016A-5D7494B35111}" name="Source">
       <FILE id="KylC3a" name="Matrix.h" compile="0" resource="0" file="Source/Matrix.h"/>
