@@ -175,67 +175,39 @@ public:
     uint16_t ColorHSV(long hue, uint8_t sat, uint8_t val,
                                       bool gflag) {
 
-      uint8_t r, g, b, lo;
-      uint16_t s1, v1;
+        uint8_t r, g, b, lo;
+            uint16_t s1, v1;
 
-      // Hue
-      hue %= 1536; // -1535 to +1535
-      if (hue < 0)
-        hue += 1536;      //     0 to +1535
-      lo = hue & 255;     // Low byte  = primary/secondary color mix
-      switch (hue >> 8) { // High byte = sextant of colorwheel
-      case 0:
-        r = 255;
-        g = lo;
-        b = 0;
-        break; // R to Y
-      case 1:
-        r = 255 - lo;
-        g = 255;
-        b = 0;
-        break; // Y to G
-      case 2:
-        r = 0;
-        g = 255;
-        b = lo;
-        break; // G to C
-      case 3:
-        r = 0;
-        g = 255 - lo;
-        b = 255;
-        break; // C to B
-      case 4:
-        r = lo;
-        g = 0;
-        b = 255;
-        break; // B to M
-      default:
-        r = 255;
-        g = 0;
-        b = 255 - lo;
-        break; // M to R
-      }
+            // ---- Gestion de la teinte (Hue) ----
+            hue %= 1536;
+            if (hue < 0) hue += 1536;
+            lo = hue & 255; // Partie basse de la teinte
 
-      // Saturation: add 1 so range is 1 to 256, allowig a quick shift operation
-      // on the result rather than a costly divide, while the type upgrade to int
-      // avoids repeated type conversions in both directions.
-      s1 = sat + 1;
-      r = 255 - (((255 - r) * s1) >> 8);
-      g = 255 - (((255 - g) * s1) >> 8);
-      b = 255 - (((255 - b) * s1) >> 8);
+            switch (hue >> 8) {
+                case 0:  r = 255; g = lo;  b = 0;   break;
+                case 1:  r = 255 - lo; g = 255; b = 0;   break;
+                case 2:  r = 0; g = 255; b = lo;   break;
+                case 3:  r = 0; g = 255 - lo; b = 255;   break;
+                case 4:  r = lo; g = 0; b = 255;   break;
+                default: r = 255; g = 0; b = 255 - lo; break;
+            }
 
-      // Value (brightness) & 16-bit color reduction: similar to above, add 1
-      // to allow shifts, and upgrade to int makes other conversions implicit.
-      v1 = val + 1;
-      if (gflag) { // Gamma-corrected color?
-        
-      } else {              // linear (uncorrected) color
-        r = (r * v1) >> 12; // 4-bit results
-        g = (g * v1) >> 12;
-        b = (b * v1) >> 12;
-      }
-      return (r << 12) | ((r & 0x8) << 8) | // 4/4/4 -> 5/6/5
-             (g << 7) | ((g & 0xC) << 3) | (b << 1) | (b >> 3);
+            // ---- Application de la Saturation ----
+            s1 = sat + 1;
+            r = 255 - (((255 - r) * s1) >> 8);
+            g = 255 - (((255 - g) * s1) >> 8);
+            b = 255 - (((255 - b) * s1) >> 8);
+
+            // ---- Application de la Luminosité ----
+            v1 = val + 1;
+            r = (r * v1) >> 8;
+            g = (g * v1) >> 8;
+            b = (b * v1) >> 8;
+
+            // ---- Conversion en RGB565 ----
+            return ((r & 0xF8) << 8) |  // Rouge sur 5 bits (5 MSB)
+                   ((g & 0xFC) << 3)  | // Vert sur 6 bits (6 MSB)
+                   ((b & 0xF8) >> 3);   // Bleu sur 5 bits (5 MSB)
     }
     
     void startWrite() {

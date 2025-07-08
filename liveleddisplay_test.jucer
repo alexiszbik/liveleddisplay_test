@@ -12,7 +12,6 @@
       <FILE id="bv8OEu" name="ColorsAndMatrix.h" compile="0" resource="0"
             file="liveleddisplay/ColorsAndMatrix.h"/>
       <FILE id="vOkNTM" name="FlashingSign.h" compile="0" resource="0" file="liveleddisplay/FlashingSign.h"/>
-      <FILE id="j6TjVa" name="Hearth.h" compile="0" resource="0" file="liveleddisplay/Hearth.h"/>
       <FILE id="lipye5" name="Kaomojis.h" compile="0" resource="0" file="liveleddisplay/Kaomojis.h"/>
       <FILE id="Zl9hNR" name="LICENSE" compile="0" resource="1" file="liveleddisplay/LICENSE"/>
       <FILE id="scqESb" name="liveleddisplay.ino" compile="0" resource="1"
@@ -27,15 +26,19 @@
       <FILE id="rUFRwo" name="RandomYMNK.h" compile="0" resource="0" file="liveleddisplay/RandomYMNK.h"/>
       <FILE id="kfIwJN" name="README.md" compile="0" resource="1" file="liveleddisplay/README.md"/>
       <FILE id="vhEASS" name="Rectangle.h" compile="0" resource="0" file="liveleddisplay/Rectangle.h"/>
+      <FILE id="qt36j7" name="Gfx.h" compile="0" resource="0" file="liveleddisplay/Gfx.h"/>
+      <FILE id="Vctuya" name="GfxRes.h" compile="0" resource="0" file="liveleddisplay/GfxRes.h"/>
+      <FILE id="CgSHOr" name="Intro.h" compile="0" resource="0" file="liveleddisplay/Intro.h"/>
       <FILE id="CvyfzZ" name="RectangleGroup.h" compile="0" resource="0"
             file="liveleddisplay/RectangleGroup.h"/>
       <FILE id="rzyIpg" name="Scene.h" compile="0" resource="0" file="liveleddisplay/Scene.h"/>
+      <FILE id="ZFWc66" name="NightSky.h" compile="0" resource="0" file="liveleddisplay/NightSky.h"/>
+      <FILE id="xOiZTk" name="Fire.h" compile="0" resource="0" file="liveleddisplay/Fire.h"/>
+      <FILE id="cgjfjW" name="Lasers.h" compile="0" resource="0" file="liveleddisplay/Lasers.h"/>
       <FILE id="clpfXP" name="SquareDrops.h" compile="0" resource="0" file="liveleddisplay/SquareDrops.h"/>
-      <FILE id="x9aCwU" name="Squares.h" compile="0" resource="0" file="liveleddisplay/Squares.h"/>
-      <FILE id="DADjD9" name="SquareScene.h" compile="0" resource="0" file="liveleddisplay/SquareScene.h"/>
-      <FILE id="RFBVjN" name="SquareTrail.h" compile="0" resource="0" file="liveleddisplay/SquareTrail.h"/>
       <FILE id="Y2v1BC" name="StarTour.h" compile="0" resource="0" file="liveleddisplay/StarTour.h"/>
       <FILE id="JayjQj" name="Sticks.h" compile="0" resource="0" file="liveleddisplay/Sticks.h"/>
+      <FILE id="Qkxae5" name="Plasma.h" compile="0" resource="0" file="liveleddisplay/Plasma.h"/>
       <FILE id="Zck2Or" name="Ticker.h" compile="0" resource="0" file="liveleddisplay/Ticker.h"/>
       <FILE id="wi5H40" name="Turnstile.h" compile="0" resource="0" file="liveleddisplay/Turnstile.h"/>
       <FILE id="AGe88s" name="Vortex.h" compile="0" resource="0" file="liveleddisplay/Vortex.h"/>

@@ -35,6 +35,8 @@ typedef int byte;
 #define A1 0
 #define A2 0
 
+#include "../liveleddisplay/Spiral.h"
+
 #include "../liveleddisplay/Arrows.h"
 #include "../liveleddisplay/AutoVu.h"
 #include "../liveleddisplay/BigVu.h"
@@ -52,6 +54,9 @@ typedef int byte;
 #include "../liveleddisplay/Vortex.h"
 #include "../liveleddisplay/Intro.h"
 #include "../liveleddisplay/Explode.h"
+#include "../liveleddisplay/Fire.h"
+#include "../liveleddisplay/Plasma.h"
+
 //#include "../liveleddisplay/Sparkles.h"
 //#include "../liveleddisplay/Wash.h"
 
@@ -88,11 +93,14 @@ private:
     
     //Sparkles test = Sparkles();
     //SquareTrail test = SquareTrail(BLUE_P_S, false);
-    //Sticks test = Sticks(RED_P);
-    //Gfx test = Gfx(RED_P, GfxEnum::gfx_hearth, Gfx::EGfxMode::gfxMode_normal);
+    //NightSky test = NightSky();
+    //Plasma test = Plasma();
+    //Arrows test = Arrows();
+    //Gfx test = Gfx(new RainbowPalette(), GfxEnum::gfx_smiley, Gfx::EGfxMode::gfxMode_normal, false, false);
     //SquareDrops test = SquareDrops(new RainbowPalette(), SquareDrops::wash);
-    Osc test = Osc(new Palette(COLOR(7,0,0), COLOR(0,7,0), COLOR(0,0,7)));
+    //Osc test = Osc(new Palette(COLOR(7,0,0), COLOR(0,7,0), COLOR(0,0,7)));
     //Osc test = Osc(new Palette(COLOR(7,0,0)));
+    Spiral test = Spiral();
     
     int framesPerSecond = 12;
     bool framesPerSecondeChanged = false;

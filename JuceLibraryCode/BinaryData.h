@@ -12,10 +12,10 @@ namespace BinaryData
     const int            LICENSESize = 35149;
 
     extern const char*   liveleddisplay_ino;
-    const int            liveleddisplay_inoSize = 5499;
+    const int            liveleddisplay_inoSize = 6619;
 
     extern const char*   optimizing_flash_memory;
-    const int            optimizing_flash_memorySize = 402;
+    const int            optimizing_flash_memorySize = 682;
 
     extern const char*   README_md;
     const int            README_mdSize = 55;
